@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div.box{
+  
+    width: 400px;
+    height: 600px;
+    border: black solid 2px;
+    background-color: yellow;
+    margin:auto;
+    border-radius: 5% 5% 15% 15%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+div.screens:nth-child(1){
+    border: black solid 1px;
+    width: 366px;
+    height: 117px;
+    background-color: darkgray;
+    border-radius: 5%;
+    margin: 10px auto;
+    font-size: 92px;
+    text-align: right;
+    padding-right: 15px;
+
+}
+div.screens:nth-child(2){
+    width: 121px;
+    height: 27px;
+    border: black solid 0.5px;
+    background-color: brown;
+    margin: 10px 10px 10px 260px;
+
+}
+
+div.space{
+    display: grid;
+    grid-template-columns: 78px 78px 78px 78px 78px;
+    grid-template-rows:  68px 68px 68px 68px 70px;
+    
+    row-gap: 5px;
+    margin-top: 50px;
+    
+}
+div.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 1.5em;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    box-shadow:  1px 1px grey, 1px 2px grey;
+        
+}
+div.buttons:nth-child(1){
+    background-color: lightgray;
+    color: black;
+}
+div.buttons:nth-child(2){
+    border-radius: 20px;
+}
+div.buttons:nth-child(3){
+border-radius: 20px;
+}
+div.buttons:nth-child(4){
+border-radius: 20px;
+}
+div.buttons:nth-child(5){
+    background-color: lightgray;
+    color: black;
+}
+div.buttons:nth-child(6){
+    background-color: lightgray;
+    color: black;
+}
+div.buttons:nth-child(7){
+border-radius: 20px;
+}
+div.buttons:nth-child(8){
+border-radius: 20px;
+}
+div.buttons:nth-child(9){
+border-radius: 20px;
+}
+div.buttons:nth-child(10){
+    background-color: lightgray;
+    color: black;
+}
+div.buttons:nth-child(11){
+    background-color: orangered;
+    color: black;
+}
+div.buttons:nth-child(12){
+border-radius: 20px;
+}
+div.buttons:nth-child(13){
+border-radius: 20px;
+}
+div.buttons:nth-child(14){
+border-radius: 20px;
+}
+div.buttons:nth-child(15){
+    background-color: lightgray;
+    color: black;
+}
+div.buttons:nth-child(16){
+    background-color: orangered;
+    color: black;
+}
+div.buttons:nth-child(17){
+border-radius: 20px;
+}
+div.buttons:nth-child(18){
+border-radius: 20px;
+}
+div.buttons:nth-child(19){
+border-radius: 20px;
+}
+div.buttons:nth-child(20){
+    grid-row: 4/6;
+    grid-column: 5/6;
+    border-radius: 50px;
+    background-color: lightgray;
+    color: black;
+}
+
+div.buttons:nth-child(21){
+    grid-column: 2 / span 3;
+    border-radius: 50px;
+    background-color: lightgray;
+    color: black;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   min-height: 100vh;
+   margin: 0 auto;
+}
+
+div.container{
+width: 35vh;
+margin: 200px auto;
+background-color: navy;
+
+
+}
+input[type=text]{
+    
+}
+form{
+    display: inline-flex;
+        flex-direction: column;
+    align-items: baseline;
+    margin: auto;
+}
+input[type=button], [type=reset]{
+    background-color: greenyellow;
+}

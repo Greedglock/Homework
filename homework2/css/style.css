@@ -1,0 +1,24 @@
+div.container{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    border: 2px black solid;
+    box-shadow: 13px 10px 29px 2px red
+
+}
+div.woods{
+    font-family: 'Courier New', Courier, monospace;
+}
+div.tom{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em;
+}
+div.jordan{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3em;
+}
+
+span{
+    font-size: 2em;
+    text-shadow:2px 2px 5px red;
+}

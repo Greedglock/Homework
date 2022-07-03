@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+div.contanier{
+    width: 100vw;
+    height: 100%;
+    background-color: grey;
+    background-size: cover;
+    max-width: 100%;
+}
+
+div.inner{
+    width: 90vw;
+    height: 100vh;
+    margin:auto;
+    background-size: cover;
+    
+    
+}
+
+
+/** adding all of the images and effects*/
+
+
+div.inner:nth-child(1){
+    display: flex;
+    position: relative;
+    background-image: url(../css/Images/desert-geeaaa4534_1920.jpg);
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%) blur(5px); 
+    filter: grayscale(100%) blur(5px);
+    transition: all 0.5s ease;
+    font-family: 'Lobster', cursive;
+    font-size: 10em;
+    justify-content: center;
+    align-items: center;
+    transition: transform .5s;
+}
+
+div.inner:nth-child(2){
+    display: flex;
+    position: relative;
+    background-image: url(../css/Images/owl-g319e44fb3_1280.jpg);
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%) blur(5px); 
+    filter: grayscale(100%) blur(5px);
+    transition: all 0.5s ease;
+    font-family: 'Lobster', cursive;
+    font-size: 10em;
+    justify-content: center;
+    align-items: center;
+    transition: transform .5s;
+    color: rgb(238, 120, 120);
+}
+div.inner:nth-child(1):hover{
+    z-index: 1;
+}
+div.inner:hover{
+    
+    -webkit-filter: grayscale(0%) blur(0.5px); 
+    filter: grayscale(0%) blur(0.5px);
+    transform: scale(1.1);
+    
+
+}
+span{
+    opacity: 0;
+    filter: blur(4px);
+    animation: fade-in forwards 1 2s  linear ;
+
+}
+@keyframes fade-in {
+    100%{
+        opacity: 1;
+        filter: blur(0px);
+    }
+    
+}

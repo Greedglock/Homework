@@ -1,0 +1,81 @@
+.nav-bar{
+    width: 50%;
+    margin: auto;
+
+
+
+
+}
+
+ul{
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color:black;
+}
+
+ul li a:hover{
+    color: aqua;
+}
+div .flex-container{
+    display: inline-flex;
+}
+div .player1{
+    border: 2px solid black;
+    width: 150px;
+    height: 160px;
+}
+div .player2{
+    border: 2px solid black;
+    width: 150px;
+    height: 160px;
+    position: relative;
+    top: 400px;
+}
+span.name{
+    display: inline-block;
+    position: relative;
+    top: 173px;
+    right: 252px;
+}
+div.chips{
+    border: 1px black solid;
+      width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+div.player-1-chips{
+    display: inline-block;
+    position: relative;
+    bottom: 27px;
+    color: white;
+
+}
+div.player-2-chips{
+    display: inline-block;
+    position: relative;
+    top: 390px;
+    right: 235px;
+    color: white;
+}
+div #black{
+background-color: black;
+}
+div #red{
+background-color: red;
+}
